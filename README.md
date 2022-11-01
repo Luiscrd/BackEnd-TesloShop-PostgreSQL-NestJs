@@ -50,7 +50,7 @@ yarn starat:dev
 
 8. Cargar la base de datos con seed
 ```
-http://localhost:3000/api/v2/seed
+http://localhost:3000/api/seed
 ```
 
 ## Doker
