@@ -2,7 +2,7 @@
 /dist
 /node_modules
 postgres/
-
+/static/products
 .env
 
 # Logs
