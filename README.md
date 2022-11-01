@@ -22,7 +22,7 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-# TesloSopApp
+# TesloShopApp
 
 ## Ejecutar en desarrollo
 
@@ -48,11 +48,14 @@ docker-compose up -d
 yarn starat:dev
 ```
 
+<<<<<<< HEAD
 8. Cargar la base de datos con seed
 ```
 http://localhost:3000/api/seed
 ```
 
+=======
+>>>>>>> 3c5f925d8eb2ba4a3e18a22c5a1b8f4e6fca709e
 ## Doker
 
 ## Build
