@@ -1,4 +1,6 @@
-import { IsArray, IsIn, IsInt, IsNumber, IsOptional, IsPositive, IsString, MinLength } from "class-validator";
+import { IsArray, IsIn, IsInt, IsNumber, IsOptional, 
+         IsPositive, IsString, MinLength 
+} from 'class-validator';
 
 
 export class CreateProductDto {
@@ -14,7 +16,7 @@ export class CreateProductDto {
 
     @IsString()
     @IsOptional()
-    desciption?: string;
+    description?: string;
 
     @IsString()
     @IsOptional()
@@ -23,23 +25,25 @@ export class CreateProductDto {
     @IsInt()
     @IsPositive()
     @IsOptional()
-    stock?: number;
+    stock?: number; 
 
-    @IsString( { each: true })
+    @IsString({ each: true })
     @IsArray()
-    sizes: string[];
+    sizes: string[]
 
-    @IsIn([ 'men', 'women', 'kid', 'unisex'])
+    @IsIn(['men','women','kid','unisex'])
     gender: string;
 
-    @IsString( { each: true })
+    @IsString({ each: true })
     @IsArray()
     @IsOptional()
-    tags?: string[];
+    tags: string[];
 
-    @IsString( { each: true })
+
+    @IsString({ each: true })
     @IsArray()
     @IsOptional()
     images?: string[];
-    
+
+
 }
