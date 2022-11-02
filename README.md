@@ -47,15 +47,10 @@ docker-compose up -d
 ```
 yarn starat:dev
 ```
-
-<<<<<<< HEAD
 8. Cargar la base de datos con seed
 ```
 http://localhost:3000/api/seed
 ```
-
-=======
->>>>>>> 3c5f925d8eb2ba4a3e18a22c5a1b8f4e6fca709e
 ## Doker
 
 ## Build
@@ -75,3 +70,4 @@ docker-compose -f docker-compose.prod.yaml up --build
 * PostgreSQL
 * uuid
 * bcrypt
+* OpenApi
