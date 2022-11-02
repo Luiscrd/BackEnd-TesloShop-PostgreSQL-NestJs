@@ -33,13 +33,13 @@ export class AuthService {
       });
 
       await this.userRepository.save( user )
-      
       delete user.password;
 
       return {
         ...user,
         token: this.getJwtToken({ id: user.id })
       };
+      // TODO: Retornar el JWT de acceso
 
     } catch (error) {
       this.handleDBErrors(error);
